@@ -1,0 +1,314 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.cmms"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:3:5-67
+11-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:4:5-65
+12-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:4:22-63
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:5:5-79
+13-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:5:22-76
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:6:5-65
+14-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:6:22-62
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:7:5-80
+15-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:7:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:8:5-82
+16-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:8:22-78
+17    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+17-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:9:5-88
+17-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:9:22-85
+18    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+18-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:10:5-76
+18-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:10:22-73
+19
+20    <queries>
+20-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:35:6-41:17
+21        <intent>
+21-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:36:8-40:17
+22            <action android:name="android.intent.action.VIEW" />
+22-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:37:10-62
+22-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:37:18-59
+23            <!-- If you don't know the MIME type in advance, set "mimeType" to "*/*". -->
+24            <data android:mimeType="*/*" />
+24-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:39:10-41
+24-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:39:16-38
+25        </intent>
+26    </queries>
+27
+28    <uses-feature
+28-->[:react-native-camera] D:\ThuViec\CMMS Project\CMMS\node_modules\react-native-camera\android\build\intermediates\merged_manifest\generalRelease\AndroidManifest.xml:9:5-11:36
+29        android:name="android.hardware.camera"
+29-->[:react-native-camera] D:\ThuViec\CMMS Project\CMMS\node_modules\react-native-camera\android\build\intermediates\merged_manifest\generalRelease\AndroidManifest.xml:10:9-47
+30        android:required="false" />
+30-->[:react-native-camera] D:\ThuViec\CMMS Project\CMMS\node_modules\react-native-camera\android\build\intermediates\merged_manifest\generalRelease\AndroidManifest.xml:11:9-33
+31    <uses-feature
+31-->[:react-native-camera] D:\ThuViec\CMMS Project\CMMS\node_modules\react-native-camera\android\build\intermediates\merged_manifest\generalRelease\AndroidManifest.xml:12:5-14:36
+32        android:name="android.hardware.camera.autofocus"
+32-->[:react-native-camera] D:\ThuViec\CMMS Project\CMMS\node_modules\react-native-camera\android\build\intermediates\merged_manifest\generalRelease\AndroidManifest.xml:13:9-57
+33        android:required="false" /> <!-- Required to access Google Play Licensing -->
+33-->[:react-native-camera] D:\ThuViec\CMMS Project\CMMS\node_modules\react-native-camera\android\build\intermediates\merged_manifest\generalRelease\AndroidManifest.xml:14:9-33
+34    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+34-->[:rn-fetch-blob] D:\ThuViec\CMMS Project\CMMS\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:5-73
+34-->[:rn-fetch-blob] D:\ThuViec\CMMS Project\CMMS\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:22-70
+35    <!--
+36         Required to keep CPU alive while downloading files
+37        (NOT to keep screen awake)
+38    -->
+39    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required to check whether Wi-Fi is enabled -->
+39-->[:rn-fetch-blob] D:\ThuViec\CMMS Project\CMMS\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:5-68
+39-->[:rn-fetch-blob] D:\ThuViec\CMMS Project\CMMS\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:22-65
+40    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+40-->[:rn-fetch-blob] D:\ThuViec\CMMS Project\CMMS\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:5-76
+40-->[:rn-fetch-blob] D:\ThuViec\CMMS Project\CMMS\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:22-73
+41
+42    <application
+42-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:12:5-34:19
+43        android:name="com.cmms.MainApplication"
+43-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:13:7-38
+44        android:allowBackup="false"
+44-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:17:7-34
+45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+45-->[androidx.core:core:1.7.0] C:\Users\Sang\.gradle\caches\transforms-3\75e4635b66fa4e4e84e71b52579837ce\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+46        android:icon="@mipmap/ic_launcher"
+46-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:15:7-41
+47        android:label="@string/app_name"
+47-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:14:7-39
+48        android:requestLegacyExternalStorage="true"
+48-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:19:7-50
+49        android:roundIcon="@mipmap/ic_launcher_round"
+49-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:16:7-52
+50        android:theme="@style/AppTheme"
+50-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:20:7-38
+51        android:usesCleartextTraffic="true" >
+51-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:18:7-42
+52        <activity
+52-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:21:7-33:18
+53            android:name="com.cmms.MainActivity"
+53-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:22:9-37
+54            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+54-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:24:9-118
+55            android:exported="true"
+55-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:27:9-32
+56            android:label="@string/app_name"
+56-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:23:9-41
+57            android:launchMode="singleTask"
+57-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:25:9-40
+58            android:windowSoftInputMode="adjustResize" >
+58-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:26:9-51
+59            <intent-filter>
+59-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:28:9-32:25
+60                <action android:name="android.intent.action.MAIN" />
+60-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:29:13-65
+60-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:29:21-62
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:30:13-73
+62-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:30:23-70
+63
+64                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+64-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:31:13-77
+64-->D:\ThuViec\CMMS Project\CMMS\android\app\src\main\AndroidManifest.xml:31:21-75
+65            </intent-filter>
+66        </activity>
+67
+68        <provider
+68-->[:react-native-file-viewer] D:\ThuViec\CMMS Project\CMMS\node_modules\react-native-file-viewer\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:9-16:20
+69            android:name="com.vinzscam.reactnativefileviewer.FileProvider"
+69-->[:react-native-file-viewer] D:\ThuViec\CMMS Project\CMMS\node_modules\react-native-file-viewer\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:13-75
+70            android:authorities="com.cmms.provider"
+70-->[:react-native-file-viewer] D:\ThuViec\CMMS Project\CMMS\node_modules\react-native-file-viewer\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:13-60
+71            android:exported="false"
+71-->[:react-native-file-viewer] D:\ThuViec\CMMS Project\CMMS\node_modules\react-native-file-viewer\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-37
+72            android:grantUriPermissions="true" >
+72-->[:react-native-file-viewer] D:\ThuViec\CMMS Project\CMMS\node_modules\react-native-file-viewer\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-47
+73            <meta-data
+73-->[:react-native-file-viewer] D:\ThuViec\CMMS Project\CMMS\node_modules\react-native-file-viewer\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-15:70
+74                android:name="android.support.FILE_PROVIDER_PATHS"
+74-->[:react-native-file-viewer] D:\ThuViec\CMMS Project\CMMS\node_modules\react-native-file-viewer\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:17-67
+75                android:resource="@xml/file_viewer_provider_paths" />
+75-->[:react-native-file-viewer] D:\ThuViec\CMMS Project\CMMS\node_modules\react-native-file-viewer\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:17-67
+76        </provider>
+77        <provider
+77-->[:react-native-webview] D:\ThuViec\CMMS Project\CMMS\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:9-16:20
+78            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+78-->[:react-native-webview] D:\ThuViec\CMMS Project\CMMS\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:13-83
+79            android:authorities="com.cmms.fileprovider"
+79-->[:react-native-webview] D:\ThuViec\CMMS Project\CMMS\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:13-64
+80            android:exported="false"
+80-->[:react-native-webview] D:\ThuViec\CMMS Project\CMMS\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-37
+81            android:grantUriPermissions="true" >
+81-->[:react-native-webview] D:\ThuViec\CMMS Project\CMMS\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-47
+82            <meta-data
+82-->[:react-native-file-viewer] D:\ThuViec\CMMS Project\CMMS\node_modules\react-native-file-viewer\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-15:70
+83                android:name="android.support.FILE_PROVIDER_PATHS"
+83-->[:react-native-file-viewer] D:\ThuViec\CMMS Project\CMMS\node_modules\react-native-file-viewer\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:17-67
+84                android:resource="@xml/file_provider_paths" />
+84-->[:react-native-file-viewer] D:\ThuViec\CMMS Project\CMMS\node_modules\react-native-file-viewer\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:17-67
+85        </provider>
+86        <provider
+86-->[:rn-fetch-blob] D:\ThuViec\CMMS Project\CMMS\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:32:9-40:20
+87            android:name="com.RNFetchBlob.Utils.FileProvider"
+87-->[:rn-fetch-blob] D:\ThuViec\CMMS Project\CMMS\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:33:13-62
+88            android:authorities="com.cmms.provider"
+88-->[:rn-fetch-blob] D:\ThuViec\CMMS Project\CMMS\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:34:13-60
+89            android:exported="false"
+89-->[:rn-fetch-blob] D:\ThuViec\CMMS Project\CMMS\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:35:13-37
+90            android:grantUriPermissions="true" >
+90-->[:rn-fetch-blob] D:\ThuViec\CMMS Project\CMMS\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:36:13-47
+91            <meta-data
+91-->[:react-native-file-viewer] D:\ThuViec\CMMS Project\CMMS\node_modules\react-native-file-viewer\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-15:70
+92                android:name="android.support.FILE_PROVIDER_PATHS"
+92-->[:react-native-file-viewer] D:\ThuViec\CMMS Project\CMMS\node_modules\react-native-file-viewer\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:17-67
+93                android:resource="@xml/provider_paths" />
+93-->[:react-native-file-viewer] D:\ThuViec\CMMS Project\CMMS\node_modules\react-native-file-viewer\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:17-67
+94        </provider>
+95
+96        <meta-data
+96-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\Sang\.gradle\caches\transforms-3\7f8a12fa5e11d275ef7433bff5c1ada3\transformed\jetified-okhttp3-integration-4.12.0\AndroidManifest.xml:11:9-13:43
+97            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+97-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\Sang\.gradle\caches\transforms-3\7f8a12fa5e11d275ef7433bff5c1ada3\transformed\jetified-okhttp3-integration-4.12.0\AndroidManifest.xml:12:13-84
+98            android:value="GlideModule" />
+98-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\Sang\.gradle\caches\transforms-3\7f8a12fa5e11d275ef7433bff5c1ada3\transformed\jetified-okhttp3-integration-4.12.0\AndroidManifest.xml:13:13-40
+99
+100        <service
+100-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\Sang\.gradle\caches\transforms-3\97799781954acc3d7354150c72b84ae2\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:9:9-15:19
+101            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+101-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\Sang\.gradle\caches\transforms-3\97799781954acc3d7354150c72b84ae2\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:10:13-91
+102            android:directBootAware="true"
+102-->[com.google.mlkit:common:17.2.0] C:\Users\Sang\.gradle\caches\transforms-3\53ad5d231868f74729b71d2d86f60f8e\transformed\jetified-common-17.2.0\AndroidManifest.xml:17:13-43
+103            android:exported="false" >
+103-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\Sang\.gradle\caches\transforms-3\97799781954acc3d7354150c72b84ae2\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:11:13-37
+104            <meta-data
+104-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\Sang\.gradle\caches\transforms-3\97799781954acc3d7354150c72b84ae2\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:12:13-14:85
+105                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+105-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\Sang\.gradle\caches\transforms-3\97799781954acc3d7354150c72b84ae2\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:13:17-120
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\Sang\.gradle\caches\transforms-3\97799781954acc3d7354150c72b84ae2\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:14:17-82
+107            <meta-data
+107-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\Sang\.gradle\caches\transforms-3\b9f3389d51c178b8d896d7baeb40c059\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:12:13-14:85
+108                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+108-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\Sang\.gradle\caches\transforms-3\b9f3389d51c178b8d896d7baeb40c059\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:13:17-114
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\Sang\.gradle\caches\transforms-3\b9f3389d51c178b8d896d7baeb40c059\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:14:17-82
+110            <meta-data
+110-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\Sang\.gradle\caches\transforms-3\b92474410cc7ebbd2fad55921816aa5f\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:12:13-14:85
+111                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+111-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\Sang\.gradle\caches\transforms-3\b92474410cc7ebbd2fad55921816aa5f\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:13:17-114
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\Sang\.gradle\caches\transforms-3\b92474410cc7ebbd2fad55921816aa5f\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:14:17-82
+113            <meta-data
+113-->[com.google.mlkit:vision-common:16.5.0] C:\Users\Sang\.gradle\caches\transforms-3\b86801a92097a5dcc8fcd3577b45f061\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:12:13-14:85
+114                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+114-->[com.google.mlkit:vision-common:16.5.0] C:\Users\Sang\.gradle\caches\transforms-3\b86801a92097a5dcc8fcd3577b45f061\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:13:17-124
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.mlkit:vision-common:16.5.0] C:\Users\Sang\.gradle\caches\transforms-3\b86801a92097a5dcc8fcd3577b45f061\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:14:17-82
+116            <meta-data
+116-->[com.google.mlkit:common:17.2.0] C:\Users\Sang\.gradle\caches\transforms-3\53ad5d231868f74729b71d2d86f60f8e\transformed\jetified-common-17.2.0\AndroidManifest.xml:20:13-22:85
+117                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+117-->[com.google.mlkit:common:17.2.0] C:\Users\Sang\.gradle\caches\transforms-3\53ad5d231868f74729b71d2d86f60f8e\transformed\jetified-common-17.2.0\AndroidManifest.xml:21:17-120
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.mlkit:common:17.2.0] C:\Users\Sang\.gradle\caches\transforms-3\53ad5d231868f74729b71d2d86f60f8e\transformed\jetified-common-17.2.0\AndroidManifest.xml:22:17-82
+119        </service>
+120
+121        <provider
+121-->[com.google.mlkit:common:17.2.0] C:\Users\Sang\.gradle\caches\transforms-3\53ad5d231868f74729b71d2d86f60f8e\transformed\jetified-common-17.2.0\AndroidManifest.xml:9:9-13:38
+122            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+122-->[com.google.mlkit:common:17.2.0] C:\Users\Sang\.gradle\caches\transforms-3\53ad5d231868f74729b71d2d86f60f8e\transformed\jetified-common-17.2.0\AndroidManifest.xml:10:13-78
+123            android:authorities="com.cmms.mlkitinitprovider"
+123-->[com.google.mlkit:common:17.2.0] C:\Users\Sang\.gradle\caches\transforms-3\53ad5d231868f74729b71d2d86f60f8e\transformed\jetified-common-17.2.0\AndroidManifest.xml:11:13-69
+124            android:exported="false"
+124-->[com.google.mlkit:common:17.2.0] C:\Users\Sang\.gradle\caches\transforms-3\53ad5d231868f74729b71d2d86f60f8e\transformed\jetified-common-17.2.0\AndroidManifest.xml:12:13-37
+125            android:initOrder="99" />
+125-->[com.google.mlkit:common:17.2.0] C:\Users\Sang\.gradle\caches\transforms-3\53ad5d231868f74729b71d2d86f60f8e\transformed\jetified-common-17.2.0\AndroidManifest.xml:13:13-35
+126
+127        <activity
+127-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\Sang\.gradle\caches\transforms-3\795676a79a0c8e1cc25c8530d5bb032b\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:23:9-26:75
+128            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+128-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\Sang\.gradle\caches\transforms-3\795676a79a0c8e1cc25c8530d5bb032b\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:24:13-79
+129            android:exported="false"
+129-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\Sang\.gradle\caches\transforms-3\795676a79a0c8e1cc25c8530d5bb032b\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:25:13-37
+130            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+130-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\Sang\.gradle\caches\transforms-3\795676a79a0c8e1cc25c8530d5bb032b\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:26:13-72
+131
+132        <meta-data
+132-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\Sang\.gradle\caches\transforms-3\b63984d3b045444cdc55f8997826a36d\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:23:9-25:69
+133            android:name="com.google.android.gms.version"
+133-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\Sang\.gradle\caches\transforms-3\b63984d3b045444cdc55f8997826a36d\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:24:13-58
+134            android:value="@integer/google_play_services_version" />
+134-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\Sang\.gradle\caches\transforms-3\b63984d3b045444cdc55f8997826a36d\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:25:13-66
+135
+136        <provider
+136-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Sang\.gradle\caches\transforms-3\223146ef33e3aa619e8b04649706e145\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+137            android:name="androidx.startup.InitializationProvider"
+137-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Sang\.gradle\caches\transforms-3\223146ef33e3aa619e8b04649706e145\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+138            android:authorities="com.cmms.androidx-startup"
+138-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Sang\.gradle\caches\transforms-3\223146ef33e3aa619e8b04649706e145\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+139            android:exported="false" >
+139-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Sang\.gradle\caches\transforms-3\223146ef33e3aa619e8b04649706e145\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+140            <meta-data
+140-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Sang\.gradle\caches\transforms-3\223146ef33e3aa619e8b04649706e145\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+141                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+141-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Sang\.gradle\caches\transforms-3\223146ef33e3aa619e8b04649706e145\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+142                android:value="androidx.startup" />
+142-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Sang\.gradle\caches\transforms-3\223146ef33e3aa619e8b04649706e145\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+143            <meta-data
+143-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Sang\.gradle\caches\transforms-3\d5d05479173d466a6bd0989b3b3e5ef4\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+144                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+144-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Sang\.gradle\caches\transforms-3\d5d05479173d466a6bd0989b3b3e5ef4\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+145                android:value="androidx.startup" />
+145-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Sang\.gradle\caches\transforms-3\d5d05479173d466a6bd0989b3b3e5ef4\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+146        </provider>
+147
+148        <meta-data
+148-->[com.facebook.soloader:soloader:0.10.5] C:\Users\Sang\.gradle\caches\transforms-3\ec3312a013bd7d8a70466a1977a1dba4\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:12:9-14:37
+149            android:name="com.facebook.soloader.enabled"
+149-->[com.facebook.soloader:soloader:0.10.5] C:\Users\Sang\.gradle\caches\transforms-3\ec3312a013bd7d8a70466a1977a1dba4\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:13:13-57
+150            android:value="false" />
+150-->[com.facebook.soloader:soloader:0.10.5] C:\Users\Sang\.gradle\caches\transforms-3\ec3312a013bd7d8a70466a1977a1dba4\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:14:13-34
+151
+152        <service
+152-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Sang\.gradle\caches\transforms-3\e39449332b16abbff71917ad5661bdd3\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+153            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+153-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Sang\.gradle\caches\transforms-3\e39449332b16abbff71917ad5661bdd3\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+154            android:exported="false" >
+154-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Sang\.gradle\caches\transforms-3\e39449332b16abbff71917ad5661bdd3\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+155            <meta-data
+155-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Sang\.gradle\caches\transforms-3\e39449332b16abbff71917ad5661bdd3\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+156                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+156-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Sang\.gradle\caches\transforms-3\e39449332b16abbff71917ad5661bdd3\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+157                android:value="cct" />
+157-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Sang\.gradle\caches\transforms-3\e39449332b16abbff71917ad5661bdd3\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+158        </service>
+159        <service
+159-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Sang\.gradle\caches\transforms-3\5b4aa339182f7c0c9798b03e5e65fdd0\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+160            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+160-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Sang\.gradle\caches\transforms-3\5b4aa339182f7c0c9798b03e5e65fdd0\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+161            android:exported="false"
+161-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Sang\.gradle\caches\transforms-3\5b4aa339182f7c0c9798b03e5e65fdd0\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+162            android:permission="android.permission.BIND_JOB_SERVICE" >
+162-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Sang\.gradle\caches\transforms-3\5b4aa339182f7c0c9798b03e5e65fdd0\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+163        </service>
+164
+165        <receiver
+165-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Sang\.gradle\caches\transforms-3\5b4aa339182f7c0c9798b03e5e65fdd0\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+166            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+166-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Sang\.gradle\caches\transforms-3\5b4aa339182f7c0c9798b03e5e65fdd0\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+167            android:exported="false" />
+167-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Sang\.gradle\caches\transforms-3\5b4aa339182f7c0c9798b03e5e65fdd0\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+168    </application>
+169
+170</manifest>

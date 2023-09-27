@@ -1,0 +1,52 @@
+com.cmms.app-media-1.0.0-0 C:\Users\Sang\.gradle\caches\transforms-3\0ccf071963cf77bccd5264228cac6e51\transformed\media-1.0.0\res
+com.cmms.app-jetified-emoji2-views-helper-1.0.0-1 C:\Users\Sang\.gradle\caches\transforms-3\0ea8bc22ad4ebc71e19e62d6deb40a83\transformed\jetified-emoji2-views-helper-1.0.0\res
+com.cmms.app-jetified-glide-4.12.0-2 C:\Users\Sang\.gradle\caches\transforms-3\0eaf52f4c642de190d4dd4a67699b7b2\transformed\jetified-glide-4.12.0\res
+com.cmms.app-fragment-1.3.6-3 C:\Users\Sang\.gradle\caches\transforms-3\177c698be397eb145127cfb5353a1679\transformed\fragment-1.3.6\res
+com.cmms.app-recyclerview-1.1.0-4 C:\Users\Sang\.gradle\caches\transforms-3\1d74f8570861ae29793135827590fc1b\transformed\recyclerview-1.1.0\res
+com.cmms.app-jetified-emoji2-1.0.0-5 C:\Users\Sang\.gradle\caches\transforms-3\223146ef33e3aa619e8b04649706e145\transformed\jetified-emoji2-1.0.0\res
+com.cmms.app-jetified-appcompat-resources-1.4.1-6 C:\Users\Sang\.gradle\caches\transforms-3\30de096d5ba1553f19f74e52c1ed5c94\transformed\jetified-appcompat-resources-1.4.1\res
+com.cmms.app-jetified-viewpager2-1.0.0-7 C:\Users\Sang\.gradle\caches\transforms-3\378d88de2fde0e29d92543d12e33b34a\transformed\jetified-viewpager2-1.0.0\res
+com.cmms.app-core-1.7.0-8 C:\Users\Sang\.gradle\caches\transforms-3\75e4635b66fa4e4e84e71b52579837ce\transformed\core-1.7.0\res
+com.cmms.app-jetified-play-services-base-17.6.0-9 C:\Users\Sang\.gradle\caches\transforms-3\795676a79a0c8e1cc25c8530d5bb032b\transformed\jetified-play-services-base-17.6.0\res
+com.cmms.app-jetified-core-ktx-1.6.0-10 C:\Users\Sang\.gradle\caches\transforms-3\7b17992492878694f2c2e90e8f81414b\transformed\jetified-core-ktx-1.6.0\res
+com.cmms.app-jetified-tracing-1.1.0-11 C:\Users\Sang\.gradle\caches\transforms-3\816103dcaf20cc3449d44e7aef228ddc\transformed\jetified-tracing-1.1.0\res
+com.cmms.app-lifecycle-viewmodel-2.3.1-12 C:\Users\Sang\.gradle\caches\transforms-3\8c6c5513f4a20550a4fe8e18d90a0b23\transformed\lifecycle-viewmodel-2.3.1\res
+com.cmms.app-jetified-drawee-2.6.0-13 C:\Users\Sang\.gradle\caches\transforms-3\8ebb0988b078846cf36008451821bdf1\transformed\jetified-drawee-2.6.0\res
+com.cmms.app-material-1.1.0-14 C:\Users\Sang\.gradle\caches\transforms-3\9300c7fc5aff0974f1ee709fb212c45e\transformed\material-1.1.0\res
+com.cmms.app-jetified-savedstate-1.1.0-15 C:\Users\Sang\.gradle\caches\transforms-3\98e95a351ab9bde9d0757d3ba2da6dd9\transformed\jetified-savedstate-1.1.0\res
+com.cmms.app-sqlite-framework-2.2.0-16 C:\Users\Sang\.gradle\caches\transforms-3\aed854fb12aa7a4f325a5318b63d5aa8\transformed\sqlite-framework-2.2.0\res
+com.cmms.app-appcompat-1.4.1-17 C:\Users\Sang\.gradle\caches\transforms-3\b14585e0ae3314e7a64bac79062dab1c\transformed\appcompat-1.4.1\res
+com.cmms.app-jetified-autofill-1.1.0-18 C:\Users\Sang\.gradle\caches\transforms-3\b2c399022120a5a16a836a433ff38c79\transformed\jetified-autofill-1.1.0\res
+com.cmms.app-jetified-play-services-basement-17.6.0-19 C:\Users\Sang\.gradle\caches\transforms-3\b63984d3b045444cdc55f8997826a36d\transformed\jetified-play-services-basement-17.6.0\res
+com.cmms.app-transition-1.2.0-20 C:\Users\Sang\.gradle\caches\transforms-3\bc4630f7968b1f3eb8f0d04812c2ae29\transformed\transition-1.2.0\res
+com.cmms.app-cardview-1.0.0-21 C:\Users\Sang\.gradle\caches\transforms-3\c785f2650a4ab9597610a42a5423b6e7\transformed\cardview-1.0.0\res
+com.cmms.app-jetified-react-android-0.72.3-debug-22 C:\Users\Sang\.gradle\caches\transforms-3\c89beba49bda3c7ff0db4787685e5ed7\transformed\jetified-react-android-0.72.3-debug\res
+com.cmms.app-jetified-startup-runtime-1.0.0-23 C:\Users\Sang\.gradle\caches\transforms-3\cd3884f773085f1dee1d35041010e253\transformed\jetified-startup-runtime-1.0.0\res
+com.cmms.app-coordinatorlayout-1.1.0-24 C:\Users\Sang\.gradle\caches\transforms-3\cde464ada6bf8e4db1ce6a3edaecd38a\transformed\coordinatorlayout-1.1.0\res
+com.cmms.app-lifecycle-runtime-2.4.0-25 C:\Users\Sang\.gradle\caches\transforms-3\cf8c141c143f512e5d69201abc198297\transformed\lifecycle-runtime-2.4.0\res
+com.cmms.app-jetified-lifecycle-process-2.4.0-26 C:\Users\Sang\.gradle\caches\transforms-3\d5d05479173d466a6bd0989b3b3e5ef4\transformed\jetified-lifecycle-process-2.4.0\res
+com.cmms.app-sqlite-2.2.0-27 C:\Users\Sang\.gradle\caches\transforms-3\dc58477293179deb391b12c4cba55b48\transformed\sqlite-2.2.0\res
+com.cmms.app-jetified-flipper-0.182.0-28 C:\Users\Sang\.gradle\caches\transforms-3\e13f88164840fe641a466d05cd8edac7\transformed\jetified-flipper-0.182.0\res
+com.cmms.app-jetified-annotation-experimental-1.1.0-29 C:\Users\Sang\.gradle\caches\transforms-3\ea88610a3c8be13450373fa73372379b\transformed\jetified-annotation-experimental-1.1.0\res
+com.cmms.app-pngs-30 D:\ThuViec\CMMS Project\CMMS\android\app\build\generated\res\pngs\debug
+com.cmms.app-resValues-31 D:\ThuViec\CMMS Project\CMMS\android\app\build\generated\res\resValues\debug
+com.cmms.app-rs-32 D:\ThuViec\CMMS Project\CMMS\android\app\build\generated\res\rs\debug
+com.cmms.app-mergeDebugResources-33 D:\ThuViec\CMMS Project\CMMS\android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.cmms.app-mergeDebugResources-34 D:\ThuViec\CMMS Project\CMMS\android\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.cmms.app-merged_res-35 D:\ThuViec\CMMS Project\CMMS\android\app\build\intermediates\merged_res\debug
+com.cmms.app-debug-36 D:\ThuViec\CMMS Project\CMMS\android\app\src\debug\res
+com.cmms.app-main-37 D:\ThuViec\CMMS Project\CMMS\android\app\src\main\res
+com.cmms.app-packaged_res-38 D:\ThuViec\CMMS Project\CMMS\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\packaged_res\debug
+com.cmms.app-packaged_res-39 D:\ThuViec\CMMS Project\CMMS\node_modules\@react-native-masked-view\masked-view\android\build\intermediates\packaged_res\debug
+com.cmms.app-packaged_res-40 D:\ThuViec\CMMS Project\CMMS\node_modules\react-native-camera\android\build\intermediates\packaged_res\generalDebug
+com.cmms.app-packaged_res-41 D:\ThuViec\CMMS Project\CMMS\node_modules\react-native-fast-image\android\build\intermediates\packaged_res\debug
+com.cmms.app-packaged_res-42 D:\ThuViec\CMMS Project\CMMS\node_modules\react-native-file-viewer\android\build\intermediates\packaged_res\debug
+com.cmms.app-packaged_res-43 D:\ThuViec\CMMS Project\CMMS\node_modules\react-native-fs\android\build\intermediates\packaged_res\debug
+com.cmms.app-packaged_res-44 D:\ThuViec\CMMS Project\CMMS\node_modules\react-native-gesture-handler\android\build\intermediates\packaged_res\debug
+com.cmms.app-packaged_res-45 D:\ThuViec\CMMS Project\CMMS\node_modules\react-native-permissions\android\build\intermediates\packaged_res\debug
+com.cmms.app-packaged_res-46 D:\ThuViec\CMMS Project\CMMS\node_modules\react-native-reanimated\android\build\intermediates\packaged_res\debug
+com.cmms.app-packaged_res-47 D:\ThuViec\CMMS Project\CMMS\node_modules\react-native-safe-area-context\android\build\intermediates\packaged_res\debug
+com.cmms.app-packaged_res-48 D:\ThuViec\CMMS Project\CMMS\node_modules\react-native-screens\android\build\intermediates\packaged_res\debug
+com.cmms.app-packaged_res-49 D:\ThuViec\CMMS Project\CMMS\node_modules\react-native-vector-icons\android\build\intermediates\packaged_res\debug
+com.cmms.app-packaged_res-50 D:\ThuViec\CMMS Project\CMMS\node_modules\react-native-webview\android\build\intermediates\packaged_res\debug
+com.cmms.app-packaged_res-51 D:\ThuViec\CMMS Project\CMMS\node_modules\rn-fetch-blob\android\build\intermediates\packaged_res\debug
